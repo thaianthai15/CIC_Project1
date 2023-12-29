@@ -514,8 +514,14 @@
     border-bottom: 1px solid rgb(225, 222, 222);
 }
 
-.announce-container .announce p {
+.announce-container .announce a {
     padding-bottom: 5px;
+    text-decoration: none;
+    color: #000;
+}
+
+.announce-container .announce a:hover {
+    color: rgb(163, 7, 19);
 }
 
 .announce-container .button-box {
@@ -565,6 +571,7 @@
     flex-wrap: wrap;
     padding-top: 20px;
     gap: 10px;
+    cursor: zoom-in;
 }
 
 .second-container .activity-box .gallery .activ-img img {
@@ -604,10 +611,11 @@
     padding: 0px 10px;
 }
 
-.second-container .activity-box .activ-news .activ-content .content-news p {
+.second-container .activity-box .activ-news .activ-content .content-news a {
     color: #084b71;
     font-size: 1.1rem;
     font-weight: 500;
+    text-decoration: none;
 }
 
 .second-container .activity-box .activ-news .activ-content .content-news .content-news-icon {
